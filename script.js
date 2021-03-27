@@ -7,8 +7,8 @@ myImage.src =
 myImage.addEventListener("load", function () {
   const canvas = document.getElementById("canvas1");
   const ctx = canvas.getContext("2d");
-  canvas.width = 540;
-  canvas.height = 643;
+  canvas.width = 666;
+  canvas.height = 375;
   const gradient1 = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
   gradient1.addColorStop(0.2, "pink");
   gradient1.addColorStop(0.3, "red");
