@@ -33,7 +33,7 @@ myImage.addEventListener("load", function () {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   let particlesArray = [];
-  const numberOfParticles = 3000;
+  const numberOfParticles = 6000;
 
   let mappedImage = [];
   for (let y = 0; y < canvas.height; y++) {
